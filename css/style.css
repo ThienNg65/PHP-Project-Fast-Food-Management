@@ -1,12 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600&display=swap');
 
 :root {
-    --yellow:#fed330;
-    --red:#e74c3c;
-    --white:#fff;
-    --black:#222;
-    --light-color:#777;
-    --border:.2rem solid var(--black);
+    --yellow: #fed330;
+    --red: #e74c3c;
+    --white: #fff;
+    --black: #222;
+    --light-color: #777;
+    --border: .2rem solid var(--black);
 }
 
 
@@ -25,19 +25,19 @@
     color: var(--black);
 }
 
-::-webkit-scrollbar{
+::-webkit-scrollbar {
     height: .5rem;
     width: 1rem;
- }
- 
- ::-webkit-scrollbar-track{
+}
+
+::-webkit-scrollbar-track {
     background-color: none;
- }
- 
- ::-webkit-scrollbar-thumb{
+}
+
+::-webkit-scrollbar-thumb {
     background-color: var(--yellow);
- }
- 
+}
+
 html {
     font-size: 62.5%;
     overflow-x: hidden;
@@ -46,8 +46,8 @@ html {
 }
 
 section {
-    padding:2rem;
-    margin:0 auto;
+    padding: 2rem;
+    margin: 0 auto;
     max-width: 1200px;
 }
 
@@ -82,7 +82,7 @@ section {
     color: var(--light-color);
 }
 
-.heading p a{
+.heading p a {
     color: var(--yellow);
 }
 
@@ -174,9 +174,9 @@ section {
     left: 0;
 }
 
-.header .flex { 
+.header .flex {
     display: flex;
-    align-items: center;   
+    align-items: center;
     justify-content: space-between;
     position: relative;
 }
@@ -197,7 +197,7 @@ section {
     text-decoration: none;
 }
 
-.header .flex .icons > *{
+.header .flex .icons>* {
     font-size: 2.5rem;
     color: var(--black);
     cursor: pointer;
@@ -208,7 +208,7 @@ section {
     font-size: 2rem;
 }
 
-.header .flex .icons > *:hover {
+.header .flex .icons>*:hover {
     color: var(--yellow);
 }
 
@@ -228,12 +228,12 @@ section {
 }
 
 @keyframes fadeIn {
-    0%{
+    0% {
         transform: translateY(1rem);
     }
 }
 
-.header .flex .profile.active{
+.header .flex .profile.active {
     display: inline-block;
 }
 
@@ -311,13 +311,13 @@ section {
 .home-category .box-container {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(27rem, 1fr));
-    gap:1.5rem;
+    gap: 1.5rem;
     align-items: flex-start;
 }
 
 .home-category .box-container .box {
-    border:var(--border);
-    padding:2rem;
+    border: var(--border);
+    padding: 2rem;
     text-align: center;
 }
 
@@ -338,11 +338,11 @@ section {
     background-color: var(--black);
 }
 
-.home-category .box-container .box:hover img{
+.home-category .box-container .box:hover img {
     filter: invert();
 }
 
-.home-category .box-container .box:hover h3{
+.home-category .box-container .box:hover h3 {
     filter: invert();
 }
 
@@ -351,7 +351,7 @@ section {
 .products .box-container {
     display: grid;
     grid-template-columns: repeat(auto-fit, 32rem);
-    gap:1.5rem;
+    gap: 1.5rem;
     align-items: flex-start;
     justify-content: center;
 }
@@ -458,12 +458,12 @@ section {
     margin-right: auto;
 }
 
-.products .box-container .box .flex .price span{
+.products .box-container .box .flex .price span {
     font-size: 2rem;
     color: var(--light-color);
 }
 
-.products .box-container .box .flex .qty{
+.products .box-container .box .flex .qty {
     padding: 1rem;
     border: var(--border);
     font-size: 1.8rem;
@@ -519,26 +519,26 @@ section {
 }
 
 /* QUICK-VIEW */
-.quick-view .box{
+.quick-view .box {
     margin: 0 auto;
     max-width: 50rem;
     border: var(--border);
     padding: 2rem;
 }
 
-.quick-view .box .image{
+.quick-view .box .image {
     width: 100%;
     height: 30rem;
     object-fit: contain;
     margin-bottom: 1rem;
 }
 
-.quick-view .box .cat{
+.quick-view .box .cat {
     font-size: 1.8rem;
     color: var(--light-color);
 }
 
-.quick-view .box .cat:hover{
+.quick-view .box .cat:hover {
     text-decoration: underline;
     color: var(--black);
 }
@@ -577,12 +577,12 @@ section {
     margin-right: auto;
 }
 
-.quick-view .box .flex .price span{
+.quick-view .box .flex .price span {
     font-size: 2rem;
     color: var(--light-color);
 }
 
-.quick-view .box .flex .qty{
+.quick-view .box .flex .qty {
     padding: 1rem;
     border: var(--border);
     font-size: 1.8rem;
@@ -591,7 +591,7 @@ section {
 
 
 /* REGISTER PAGE */
-.form-container form{
+.form-container form {
     border: var(--border);
     padding: 2rem;
     text-align: center;
@@ -615,7 +615,7 @@ section {
     border: var(--border);
 }
 
-.form-container form p{
+.form-container form p {
     margin-top: 2rem;
     font-size: 2rem;
     color: var(--light-color);
@@ -632,7 +632,7 @@ section {
 
 
 /* PROFILE */
-.user-profile .box{
+.user-profile .box {
     border: var(--border);
     padding: 2rem;
     max-width: 50rem;
@@ -662,7 +662,7 @@ section {
 }
 
 /* ABOUT */
-.about .row{
+.about .row {
     display: flex;
     align-items: center;
     flex-wrap: wrap;
@@ -678,14 +678,14 @@ section {
     text-align: center;
 }
 
-.about .row .content h3{
+.about .row .content h3 {
     font-size: 3rem;
     color: var(--black);
     text-transform: capitalize;
     margin-bottom: 1rem;
 }
 
-.about .row .content p{
+.about .row .content p {
     padding: 1rem 0;
     line-height: 2;
     font-size: 1.5rem;
@@ -695,7 +695,7 @@ section {
 .steps .box-container {
     display: grid;
     grid-template-columns: repeat(auto-fit, 32rem);
-    gap:1.5rem;
+    gap: 1.5rem;
     align-items: flex-start;
     justify-content: center;
 }
@@ -725,7 +725,7 @@ section {
 }
 
 .steps .box-container .box:hover img {
-    filter: invert();   
+    filter: invert();
 }
 
 .steps .box-container .box:hover h3 {
@@ -820,15 +820,15 @@ section {
 .footer .grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(27rem, 1fr));
-    gap:1.5rem;
+    gap: 1.5rem;
     align-items: flex-start;
 }
 
-.footer .grid .box{
-    border:var(--border);
-    padding:2rem;
+.footer .grid .box {
+    border: var(--border);
+    padding: 2rem;
     text-align: center;
- }
+}
 
 
 .footer .grid .box img {
@@ -870,23 +870,116 @@ section {
 }
 
 
+/* CHECKOUT */
 
+.checkout form {
+    max-width: 50rem;
+    margin: 0 auto;
+    border: var(--border);
+    padding: 2rem;
+}
 
+.checkout form h3 {
+    font-size: 2.5rem;
+    text-transform: capitalize;
+    padding: 2rem 0;
+    color: var(--black);
+}
 
+.checkout form .cart-items {
+    background-color: var(--black);
+    padding: 2rem;
+    padding-top: 0;
+}
 
+.checkout form .cart-items h3 {
+    color: var(--white);
+}
 
+.checkout form .cart-items p {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    justify-content: space-between;
+    margin: 1rem 0;
+    line-height: 1.5;
+    font-size: 2rem;
+}
 
+.checkout form .cart-items p .name {
+    color: var(--light-color);
+}
 
+.checkout form .cart-items p .price {
+    color: var(--yellow);
+}
 
+.checkout form .cart-items .grand-total {
+    background-color: var(--white);
+    padding: .5rem 1.5rem;
+}
 
+.checkout form .cart-items .grand-total .price {
+    color: var(--red);
+}
 
+.checkout form .user-infor h3 {
+    margin: 1rem 0;
+    text-transform: capitalize;
+    font-size: 2.5rem;
+    color: var(--black);
+}
 
+.checkout form .user-infor p {
+    font-size: 1.8rem;
+    line-height: 1.5;
+    padding: 1rem 0;
+    color: var(--light-color);
+}
 
+.checkout form .user-infor p i {
+    color: var(--light-color);
+    margin-right: 1rem;
+}
 
+.checkout form .user-infor p span {
+    color: var(--black);
+}
 
+.checkout form .user-infor .select-box {
+    width: 100%;
+    border: var(--border);
+    padding: 1.4rem;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    font-size: 1.8rem;
+}
 
+/* ORDERS */
 
+.orders .box-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    align-items: flex-start;
+}
 
+.orders .box-container .box {
+    padding: 1rem 2rem;
+    border: var(--border);
+    flex: 1 1 40rem;
+}
+
+.orders .box-container .box p {
+    line-height: 1.5;
+    margin: 1rem 0;
+    font-size: 2rem;
+    color: var(--light-color);
+}
+
+.orders .box-container .box p span {
+    color: var(--black);
+}
 
 
 
@@ -926,7 +1019,7 @@ section {
         clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
     }
 
-    .header .flex .navbar a{
+    .header .flex .navbar a {
         margin: 2rem;
         display: block;
     }
